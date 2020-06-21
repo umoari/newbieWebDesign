@@ -11,6 +11,16 @@ ul {
     list-style: none;
 }
 
+h1 strong {
+    color: rgb(252,77,145);
+}
+
+/* .container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+} */
+
 /* header */
 header {
     background-color: rgb(30, 44, 105);
@@ -49,11 +59,23 @@ figure {
     padding: 0 10px;
 }
 
-
 /* hero */
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero {
     height: 200px;
-    display: flex;
-    vertical-align: center;
-    border: 1px solid red;
+    display: inherit;
+    /* border: 1px solid red; */
+}
+
+.hero h1 {
+    padding: 10px;
+}
+
+.hero_image_container {
+    margin: 0;
 }
