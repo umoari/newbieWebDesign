@@ -1,3 +1,14 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(12, 18, 44);
+}
+
 .header {
-    background: darkblue;
+    background: rgb(30, 44, 105);
+    display: flex;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
 }
